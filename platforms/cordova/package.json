@@ -7,10 +7,12 @@
 		"build:android": "cordova build android",
 		"build:electron": "cordova build electron",
 		"build:osx": "cordova build osx",
+		"build:browser": "cordova build browser",
 		"run:ios": "cordova run ios",
 		"run:android": "cordova run android",
 		"run:electron": "cordova run electron",
 		"run:osx": "cordova run osx",
+		"run:browser": "cordova run browser",
 		"serve": "cordova serve -l"
 	},
 	"cordova": {
