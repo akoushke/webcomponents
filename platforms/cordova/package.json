@@ -1,0 +1,37 @@
+{
+	"name": "cordova_web_components",
+	"version": "1.0.0",
+	"scripts": {
+		"install": "cordova prepare",
+		"build:ios": "cordova build ios",
+		"build:android": "cordova build android",
+		"build:electron": "cordova build electron",
+		"build:osx": "cordova build osx",
+		"run:ios": "cordova run ios",
+		"run:android": "cordova run android",
+		"run:electron": "cordova run electron",
+		"run:osx": "cordova run osx",
+		"serve": "cordova serve -l"
+	},
+	"cordova": {
+		"platforms": [
+			"ios",
+			"android",
+			"electron",
+			"osx",
+			"browser"
+		],
+		"plugins": {
+			"cordova-plugin-whitelist": {}
+		}
+	},
+	"dependencies": {
+		"cordova-android": "^8.0.0",
+		"cordova-browser": "^6.0.0",
+		"cordova-electron": "^1.1.0",
+		"cordova-ios": "^5.0.1",
+		"cordova-osx": "^5.0.0",
+		"cordova-plugin-whitelist": "^1.3.4"
+	},
+	"devDependencies": {}
+}
